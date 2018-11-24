@@ -1,0 +1,44 @@
+body {
+	background-color: #fff;
+	margin: 0px;
+	width: 400px;
+	min-width: 360px;
+	overflow-x: hidden;
+	font-family: "Helvetica Neue",Helvetica,"Hiragino Kaku Gothic Pro","Lucida Grande",Verdana,Arial,Meiryo,"メイリオ",sans-serif;
+}
+table {
+	width: 100%;
+	font-size: 12px;
+}
+tr:nth-child(odd){
+	background-color: rgba(0,0,0,.05)
+}
+td {
+	padding: 2px 4px;
+	border-top: 1px solid #dee2e6;
+}
+td:first-child {
+	text-align: center;
+}
+
+#container {
+	margin: 15px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	vertical-align: middle;
+}
+#form {
+	margin: 5px 5px;
+}
+#freeword {
+	width: 250px;
+	height: 25px;
+	padding: 5px;
+}
+#search {
+	width: 50px;
+	font-size: 20px;
+}
+#result {
+	margin: 5px 0px;
+}
